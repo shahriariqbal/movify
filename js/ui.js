@@ -13,7 +13,7 @@ class UI {
 
                     <div class="card medium black">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="${results.Poster}">
+                        <img class="activator " src="${results.Poster}">
                     </div>
                     <div class="card-content black">
                         <span class="card-title activator white-text text-darken-4">${results.Title}<i class="material-icons right">more_vert</i></span>
@@ -95,7 +95,7 @@ class UI {
            </div>
            <div class="card-action">
              <a href="https://www.imdb.com/title/${info.imdbID}" target="_blank">Watch on IMDB >>></a>
-             <a href="/index.html"> <<< Go Back Home </a>
+             <a href="./index.html"> <<< Go Back Home </a>
            </div>
          </div>
        </div>
