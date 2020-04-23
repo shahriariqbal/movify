@@ -1,0 +1,44 @@
+{
+  "name": "movify",
+  "version": "1.0.0",
+  "description": "",
+
+  "engines": {
+    "node": "12.x"
+  },
+
+  "main": "index.js",
+
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahriariqbal079/movify.git"
+  },
+
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahriariqbal079/movify/issues"
+  },
+  "homepage": "https://github.com/shahriariqbal079/movify#readme"
+}
